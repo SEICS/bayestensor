@@ -1,5 +1,6 @@
 BayesTensor
 ===
+[![DOI](https://zenodo.org/badge/1421530862.svg)](https://doi.org/10.5281/zenodo.23407840)
 
 BayesTensor is a tensor-based probabilistic programming framework for supporting fast exact inference over discrete distributions.
 
