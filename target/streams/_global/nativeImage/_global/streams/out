@@ -1,0 +1,2 @@
+[0m[[0m[0minfo[0m] [0m[0m/Users/jw/.sdkman/candidates/java/21.0.2-graalce/bin/native-image -cp /Users/jw/Desktop/cc23/target/native-image-internal/manifest.jar --no-fallback --report-unsupported-elements-at-runtime bayestensor.driver.Driver /Users/jw/Desktop/cc23/target/native-image/bayestensor[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/jw/Desktop/cc23/target/native-image/bayestensor[0m

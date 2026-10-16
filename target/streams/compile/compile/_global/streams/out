@@ -1,0 +1,8 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jw/Desktop/cc23/src/main/scala/bayestensor/backend/TensorInterpret.scala:36:14: This catches all Throwables. If this is really intended, use `case ex : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case ex => raise(s"Error in parsing `$toutput`")[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/jw/Desktop/cc23/src/main/scala/bayestensor/backend/BayesTensorCodeGenerator.scala:12:31: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: FunCall(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def rcr(e: Exp): Document = e match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

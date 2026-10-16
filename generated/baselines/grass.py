@@ -1,0 +1,13 @@
+cloudy = np.array([0.5, 0.5])
+rain = np.array([0.8, 0.2, 0.19999999999999996, 0.8]).reshape((2,2))
+sprinkler = np.array([0.5, 0.5, 0.9, 0.1]).reshape((2,2))
+temp1 = np.array([0.30000000000000004, 0.7])
+wetRoof = np.array([1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]).reshape((2,2,2))
+temp2 = np.array([0.09999999999999998, 0.9])
+temp3 = np.array([0.09999999999999998, 0.9])
+temp4 = np.array([1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]).reshape((2,2,2))
+temp5 = np.array([1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0]).reshape((2,2,2))
+wetGrass = np.take(np.array([1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0]).reshape((2,2,2)), [1], axis=-1)
+normalized10 = np.einsum('a,ab,ac,d,dbe,f,g,fbh,gci,hij->b', cloudy, rain, sprinkler, temp1, wetRoof, temp2, temp3, temp4, temp5, wetGrass)
+res11 = normalized10 / np.sum(normalized10)
+res11
