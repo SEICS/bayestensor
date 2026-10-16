@@ -24,6 +24,11 @@ BayesTensor is a tensor-based probabilistic programming framework for supporting
     ```
 
 ## Running Experiments & Reproducing Results
+Ahead-of-time compilation (needed to run the bash script for evaluation):
+```bash
+sbt bayestensor/nativeImage
+```
+
 Script for evaluation:
 ```bash
 sh scripts/bench_e2e.sh
